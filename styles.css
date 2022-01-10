@@ -30,7 +30,7 @@ html {
 }
 
 h1 {
-    animation: fadeInAnimation ease 6s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
