@@ -1,6 +1,136 @@
+html {
+    background-color: #242582;
+}
+
+#head h1 {
+    font-family: 'Arial';
+    color: white;
+    font-size: 150px;
+    text-align:center;
+}
+
+#description {
+    margin: 100px;
+}
+
+#description h3 {
+    font-family: 'American Typewriter';
+    font-weight:lighter;
+    color: white;
+    text-align: left;
+    font-size: 48px;
+}
+
+
+#head {
+    height: 500px;
+    margin: 100px;
+    background-color: #2f2fa2;
+    
+}
+
 h1 {
-    color: red;
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-p {
-    color: blue;
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
+#socials {
+    margin-left: 500px;
+    margin-top: 1150px;
+    transition: transform 1s;
+}
+
+#opensea:hover {
+    transition: transform 400ms;
+    transform: translateY(-35%);
+}
+
+#instagram:hover {
+    transition: transform 400ms;
+    transform: translateY(-35%);
+}
+
+#twitter:hover {
+    transition: transform 400ms;
+    transform: translateY(-35%);
+}
+
+#opensea {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: #2f2fa2;
+    float: left;
+    margin: 10px;
+    
+}
+
+#instagram {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: #2f2fa2;
+    float: left;
+    margin: 10px;
+}
+
+#twitter {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: #2f2fa2;
+    float: left;
+    margin: 10px;
+}
+
+.images {
+    height: 50px;
+    padding-top: 25%;
+}
+
+#photos {
+    margin-left: 150px;
+}
+
+#image1 {
+    margin: 20px;
+    float:left;
+}
+
+#image2 {
+    margin: 20px;
+    float:left;
+}
+
+#image3 {
+    margin: 20px;
+    float:left;
+}
+
+.photo {
+    height: 400px;
+}
+
+#photos2 {
+    margin-left: 335px;
+}
+
+#imagee1 {
+    margin: 20px;
+    float:left;
+}
+
+#imagee2 {
+    margin: 20px;
+    float:left;
+}
+
