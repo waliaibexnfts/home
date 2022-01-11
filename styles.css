@@ -102,3 +102,7 @@ hr {
     transition: transform 400ms;
     transform: translateY(-35%);
 }
+
+.photo:hover {
+    opacity: 0.5;
+}
