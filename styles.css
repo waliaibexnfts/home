@@ -2,33 +2,6 @@ html {
     background-color: #242582;
 }
 
-#head h1 {
-    font-family: 'Arial';
-    color: white;
-    font-size: 150px;
-    text-align:center;
-}
-
-#description {
-    margin: 100px;
-}
-
-#description h3 {
-    font-family: 'American Typewriter';
-    font-weight:lighter;
-    color: white;
-    text-align: left;
-    font-size: 48px;
-}
-
-
-#head {
-    height: 500px;
-    margin: 100px;
-    background-color: #2f2fa2;
-    
-}
-
 h1 {
     animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
@@ -43,10 +16,76 @@ h1 {
     }
 }
 
-#socials {
-    margin-left: 500px;
-    margin-top: 1150px;
-    transition: transform 1s;
+.container-1 {
+    height: 500px;
+    margin: 100px;
+    background-color: #2f2fa2;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-1 h1{
+    font-family: 'Arial';
+    color: white;
+    font-size: 105px;
+    
+}
+
+.container-2 {
+    display: flex;
+    margin: 100px;
+    
+}
+
+.container-2 h3 {
+    font-family: 'American Typewriter';
+    font-weight:lighter;
+    color: white;
+    text-align: left;
+    font-size: 48px;
+}
+
+.container-3 {
+    margin: 40px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-4 {
+    margin: 40px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    height: 400px; 
+}
+
+.container-5 {
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    
+
+}
+
+.container-5 div {
+    height: 100px;
+    width: 100px;
+    background-color: #2f2fa2;
+}
+
+.images {
+    height: 50px;
+    padding-top: 25%;
+}
+
+hr {
+    margin-top: 400px;
+    margin-bottom: 10px;
 }
 
 #opensea:hover {
@@ -63,74 +102,3 @@ h1 {
     transition: transform 400ms;
     transform: translateY(-35%);
 }
-
-#opensea {
-    text-align: center;
-    height: 100px;
-    width: 100px;
-    background-color: #2f2fa2;
-    float: left;
-    margin: 10px;
-    
-}
-
-#instagram {
-    text-align: center;
-    height: 100px;
-    width: 100px;
-    background-color: #2f2fa2;
-    float: left;
-    margin: 10px;
-}
-
-#twitter {
-    text-align: center;
-    height: 100px;
-    width: 100px;
-    background-color: #2f2fa2;
-    float: left;
-    margin: 10px;
-}
-
-.images {
-    height: 50px;
-    padding-top: 25%;
-}
-
-#photos {
-    margin-left: 150px;
-}
-
-#image1 {
-    margin: 20px;
-    float:left;
-}
-
-#image2 {
-    margin: 20px;
-    float:left;
-}
-
-#image3 {
-    margin: 20px;
-    float:left;
-}
-
-.photo {
-    height: 400px;
-}
-
-#photos2 {
-    margin-left: 335px;
-}
-
-#imagee1 {
-    margin: 20px;
-    float:left;
-}
-
-#imagee2 {
-    margin: 20px;
-    float:left;
-}
-
