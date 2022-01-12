@@ -62,7 +62,8 @@ h1 {
 }
 
 .photo {
-    height: 400px; 
+    height: 400px;
+    border: white solid 5px;
 }
 
 .container-5 {
