@@ -108,15 +108,15 @@ h1 {
 
 @media(max-width: 767px) {
     .container-1 {
-        height: 200px;
+        width: 360px;
         margin-top: 100px;
         margin-right: 100px;
         margin-left: 0px;
         margin-bottom: 3em;
         background-color: #2f2fa2;
         display: flex;
-        justify-content: center;
         flex-wrap: nowrap;
+        justify-content: center;
     
     }
     
