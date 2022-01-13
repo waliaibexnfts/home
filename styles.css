@@ -16,90 +16,193 @@ h1 {
     }
 }
 
-.container-1 {
-    height: 500px;
-    margin: 100px;
-    background-color: #2f2fa2;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-
-}
-
-.container-1 h1{
-    font-family: 'Arial';
-    color: white;
-    font-size: 105px;
+@media(min-width: 768px) {
+    .container-1 {
+        height: 500px;
+        margin: 100px;
+        background-color: #2f2fa2;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
     
-}
-
-.container-2 {
-    display: flex;
-    margin: 100px;
+    }
     
+    .container-1 h1{
+        font-family: 'Arial';
+        color: white;
+        font-size: 105px;
+        
+    }
+    
+    .container-2 {
+        display: flex;
+        margin: 100px;
+        
+    }
+    
+    .container-2 h3 {
+        font-family: 'American Typewriter';
+        font-weight:lighter;
+        color: white;
+        text-align: left;
+        font-size: 48px;
+    }
+    
+    .container-3 {
+        margin: 40px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container-4 {
+        margin: 40px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .photo {
+        height: 400px;
+        border: white solid 5px;
+    }
+    
+    .container-5 {
+        text-align: center;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    
+    .container-5 div {
+        height: 100px;
+        width: 100px;
+        background-color: #2f2fa2;
+    }
+    
+    .images {
+        height: 50px;
+        padding-top: 25%;
+    }
+    
+    hr {
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+    
+    #opensea:hover {
+        opacity: 0.5;
+    }
+    
+    #instagram:hover {
+        opacity: 0.5;
+    }
+    
+    #twitter:hover {
+        opacity: 0.5;
+    }
+    
+    .photo:hover {
+        opacity: 0.5;
+    }
 }
 
-.container-2 h3 {
-    font-family: 'American Typewriter';
-    font-weight:lighter;
-    color: white;
-    text-align: left;
-    font-size: 48px;
+@media(max-width: 767px) {
+    .container-1 {
+        height: 200px;
+        margin-top: 100px;
+        margin-right: 100px;
+        margin-left: 0px;
+        margin-bottom: 3em;
+        background-color: #2f2fa2;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    
+    }
+    
+    .container-1 h1{
+        font-family: 'Arial';
+        color: white;
+        font-size: 40px;
+        
+    }
+    
+    .container-2 {
+        display: flex;
+        margin-left: 0px;
+        margin-bottom: 3em;
+        
+    }
+    
+    .container-2 h3 {
+        padding-right: 12px;
+        padding-left: 0px;
+        font-family: 'American Typewriter';
+        font-weight:lighter;
+        color: white;
+        font-size: 35px;
+    }
+    
+    .container-3 {
+        margin-left: 0px;
+        margin-bottom: 3em;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 3em;
+        display: grid;
+        
+    }
+    
+    .container-4 {
+        margin-left: 0px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 3em;
+        display: grid;
+    }
+    
+    .photo {
+        height: 400px;
+        border: white solid 5px;
+    }
+    
+    .container-5 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+    .container-5 div {
+        height: 100px;
+        width: 100px;
+        background-color: #2f2fa2;
+    }
+    
+    .images {
+        height: 50px;
+        padding-top: 25%;
+    }
+    
+    hr {
+        margin-top: 200px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    #opensea:hover {
+        opacity: 0.5;
+    }
+    
+    #instagram:hover {
+        opacity: 0.5;
+    }
+    
+    #twitter:hover {
+        opacity: 0.5;
+    }
+    
+    .photo:hover {
+        opacity: 0.5;
+    }
 }
 
-.container-3 {
-    margin: 40px;
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.container-4 {
-    margin: 40px;
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.photo {
-    height: 400px;
-    border: white solid 5px;
-}
-
-.container-5 {
-    text-align: center;
-    display: flex;
-    justify-content:space-evenly;
-}
-
-.container-5 div {
-    height: 100px;
-    width: 100px;
-    background-color: #2f2fa2;
-}
-
-.images {
-    height: 50px;
-    padding-top: 25%;
-}
-
-hr {
-    margin-top: 200px;
-    margin-bottom: 10px;
-}
-
-#opensea:hover {
-    opacity: 0.5;
-}
-
-#instagram:hover {
-    opacity: 0.5;
-}
-
-#twitter:hover {
-    opacity: 0.5;
-}
-
-.photo:hover {
-    opacity: 0.5;
-}
