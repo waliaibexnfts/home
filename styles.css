@@ -69,8 +69,9 @@ h1 {
     
     .container-5 {
         text-align: center;
-        display: flex;
-        justify-content:space-evenly;
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        justify-content: center;
     }
     
     .container-5 div {
@@ -167,12 +168,12 @@ h1 {
     .container-5 {
         text-align: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 110px 110px 110px;
+        justify-content: center;
         
     }
     
     .container-5 div {
-        justify-content: center;
         height: 100px;
         width: 100px;
         background-color: #2f2fa2;
