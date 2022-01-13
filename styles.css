@@ -108,7 +108,7 @@ h1 {
 
 @media(max-width: 767px) {
     .container-1 {
-        width: 360px;
+        width: 100%;
         margin-top: 100px;
         margin-right: 100px;
         margin-left: 0px;
@@ -144,7 +144,7 @@ h1 {
     }
     
     .container-3 {
-        margin-left: 0px;
+        justify-content: center;
         margin-bottom: 3em;
         grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 3em;
@@ -153,7 +153,7 @@ h1 {
     }
     
     .container-4 {
-        margin-left: 0px;
+        justify-content: center;
         grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 3em;
         display: grid;
@@ -172,6 +172,7 @@ h1 {
     }
     
     .container-5 div {
+        justify-content: center;
         height: 100px;
         width: 100px;
         background-color: #2f2fa2;
@@ -183,6 +184,8 @@ h1 {
     }
     
     hr {
+        display: grid;
+        justify-content: center;
         margin-top: 200px;
         margin-left: 0px;
         margin-bottom: 10px;
