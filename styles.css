@@ -19,7 +19,7 @@ h1 {
 @media(min-width: 1100px) {
     .container-1 {
         height: 500px;
-        margin: 100px;
+        margin: 140px 100px 100px 100px;
         background-color: #2f2fa2;
         display: flex;
         justify-content: center;
