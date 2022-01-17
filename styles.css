@@ -77,6 +77,8 @@ h1 {
     }
     
     .container-5 div {
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         height: 100px;
         width: 100px;
         background-color: #2f2fa2;
@@ -178,6 +180,8 @@ h1 {
     }
     
     .container-5 div {
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         height: 100px;
         width: 100px;
         background-color: #2f2fa2;
