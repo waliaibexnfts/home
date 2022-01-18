@@ -16,7 +16,7 @@ h1 {
     }
 }
 
-@media(min-width: 1100px) {
+@media(min-width: 1350px) {
     .container-1 {
         border-radius: 20px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -109,9 +109,16 @@ h1 {
     .photo:hover {
         opacity: 0.5;
     }
+
+    .figcaption {
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        font-family: Arial;
+    }
 }
 
-@media(max-width: 1099px) {
+@media(max-width: 1349px) {
     .container-1 {
         border-radius: 20px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -214,5 +221,11 @@ h1 {
     
     .photo:hover {
         opacity: 0.5;
+    }
+
+    .figcaption {
+        text-align: center;
+        color: white;
+        margin-top: 10px;
     }
 }
